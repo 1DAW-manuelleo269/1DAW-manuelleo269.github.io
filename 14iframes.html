@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1 {
+            transition: all 0.5s ease;
+            display: inline;
+        }
+        h1:hover {
+            background-color: green;
+            font-size: 40px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .box {
+            width: 45%;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+        iframe {
+            width: 100%; 
+            height: 100%;
+        }
+    </style>
+    <title>iFrames</title>
+</head>
+<body>
+    <h1>NextGenTech</h1>
+    <div class="container">
+        <div class="box">
+            <iframe src="video/phone.mp4"></iframe>
+        </div>
+        <div class="box">
+            <iframe src="imagenes/laptop.png"></iframe>
+        </div>
+        <div class="box">
+            <iframe src="audio/podcast.mp3"></iframe>
+        </div>
+        <div class="box">
+            <iframe src="https://www.apple.com"></iframe>
+        </div>
+    </div>
+</body>
+</html>

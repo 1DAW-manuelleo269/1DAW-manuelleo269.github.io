@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Índice</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 20px 0;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav ol {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #ecf0f1;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #1abc9c;
+        }
+
+        section, article {
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        section h3, article h3 {
+            margin-top: 0;
+            font-size: 1.8rem;
+            color: #2980b9;
+        }
+
+        p {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 30px;
+        }
+
+        footer::before {
+            content: '';
+            display: block;
+            margin: 0 auto;
+            width: 50px;
+            height: 2px;
+            background-color: #1abc9c;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Índice</h1>
+    </header>
+
+    <nav>
+        <ol>
+            <li><a href="1tamaños.html">Tamaños</a></li>
+            <li><a href="2listas.html">Listas</a></li>
+            <li><a href="3enlaces.html">Enlaces</a></li>
+            <li><a href="4imagenes.html">Imágenes</a></li>
+            <li><a href="5secciones.html">Secciones</a></li>
+            <li><a href="6tablas.html">Tablas</a></li>
+            <li><a href="7videos.html">Vídeos</a></li>
+            <li><a href="8formularios">Formularios</a></li>
+            <li><a href="10css.html">CSS</a></li>
+            <li><a href="11float1.html">Float 1</a></li>
+            <li><a href="12float2.html">Float 2</a></li>
+            <li><a href="14iframes.html">iFrames</a></li>
+        </ol>
+    </nav>
+
+    <section>
+        <h3>Sección</h3>
+
+        <canvas id="canvas" width="180" height="180"></canvas>
+        <script>
+            window.onload = function() {
+                var x = document.getElementById("canvas");
+                var elem = x.getContext("2d");
+                elem.beginPath();
+                elem.arc(90, 90, 75, 0, 2 * Math.PI);
+                elem.stroke();
+            };
+        </script>
+    
+        <h4>Música relajante</h4>
+        <audio controls>
+            <source src="\audio\birds.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+    </section>  
+
+    <article>
+        <h3>Artículo</h3>
+        <p>Este sitio web se ha creado para la realización de varias tareas del módulo de Lenguajes de marcas y sistemas de gestión de información.</p>
+    </article>
+
+    <footer>Manuel León Rodas</footer>
+</body>
+</html>

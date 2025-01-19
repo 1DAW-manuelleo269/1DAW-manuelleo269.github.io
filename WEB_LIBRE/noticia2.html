@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #111111, #252525);
+            color: #ffffff;
+        }
+
+        header {
+            background: #111111;
+            color: #ffffff;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+        }
+
+        header img {
+            width: 300px;
+            height: auto;
+        }
+
+        header h1 {
+            margin-left: 100px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background: #333333;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            color: #00BFFF;
+        }
+
+        h3 {
+            margin-top: 0;
+            color: #bbbbbb;
+        }
+
+        p.date {
+            font-size: 0.9em;
+            color: #aaaaaa;
+            margin-bottom: 20px;
+        }
+
+        article {
+            line-height: 1.6;
+        }
+
+        article img {
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="imagenes/white_rectangle_logo_trim.png" alt="Logo">
+        <h1>Noticias</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="videos.html">Vídeos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="mapa.html">Mapa web</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>¿Adiós a estudiar idiomas? Meta presenta SeamlessM4T, un traductor simultáneo que te permite hablar 101 idiomas</h2>
+        <h3>Es el primer modelo de inteligencia artificial multimodal y multilingüe capaz de realizar traducciones y transcripciones en un solo sistema.</h3>
+        <p class="date">Publicado el: 18 de enero de 2025</p>
+        <article>
+            <img src="imagenes/noticia2.jpeg" alt="Imagen de SeamlessM4T" style="display: flex; margin: 0 auto;">
+            <p>Se llama SeamlessM4T, y es un modelo de inteligencia artificial que Meta presentó como el primer sistema multimodal y multilingüe capaz de traducir y transcribir texto y voz en más de 100 idiomas. ¿Estamos realmente cerca de construir el traductor universal similar al que imaginó Douglas Adams con su Pez Babel en La Guía del Autoestopista Galáctico?</p>
+
+            <p>El modelo, presentado en la revista Nature pero todavía no disponible al público, no solo hace el proceso más eficiente, sino que también minimiza las fallas que suelen aparecer cuando los modelos trabajan de manera separada. Por ejemplo, SeamlessM4T puede traducir de forma directa entre dos lenguas habladas sin necesidad de convertirlas a texto como paso intermedio, algo que marca un hito frente a sistemas previos.</p>
+
+            <p>El modelo utiliza una base de datos masiva, SeamlessAlign, que combina 270.000 horas de alineaciones de texto y voz. Esto lo convierte en el mayor conjunto de datos abierto de este tipo, optimizado para entrenar y perfeccionar tecnologías de traducción multimodal.</p>
+        </article>
+    </main>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #111111, #252525);
+            color: #ffffff;
+        }
+
+        header {
+            background: #111111;
+            color: #ffffff;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+        }
+
+        header img {
+            width: 300px;
+            height: auto;
+        }
+
+        header h1 {
+            margin-left: 100px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .video {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .video h2 {
+            margin: 10px 0;
+        }
+
+        .video p {
+            margin: 0 0 20px;
+            color: #cccccc;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="imagenes/white_rectangle_logo_trim.png" alt="Logo">
+        <h1>Vídeos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="videos.html">Vídeos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="mapa.html">Mapa web</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="video">
+            <h2>LAS ÚLTIMAS TECNOLOGÍAS AGRÍCOLAS QUE TE SORPRENDERÁN</h2>
+            <p>Recopilación de tecnologías recientes que aumentará la producción en la agricultura.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/y5BMdggLZJw?si=blrsA4WgpcGmDg-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="video">
+            <h2>Innovaciones en Robótica: Exhibiciones Impresionantes en WRC 2024 | Exposición de Robots en China</h2>
+            <p>En la Conferencia Mundial de Robots 2024, China demostró sus capacidades en rápida expansión en robótica, mostrando una variedad de desarrollos revolucionarios y soluciones innovadoras que prometen redefinir el futuro de la tecnología.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7Z2OIKHWQCo?si=Tg66o2DAdO2d4RDO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </main>
+</body>
+</html>

@@ -49,6 +49,30 @@
             transform: scale(1.2);
             transition: transform 0.5s;
         }
+
+        .bloque {
+            display: flex;
+            align-items: center;
+            gap: 100px;
+        }
+
+        .index {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .index a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .index a:hover {
+            color: rgb(220, 220, 0);
+        }
+
         table {
             border: 4px solid black; 
             border-collapse: collapse; 
@@ -60,6 +84,7 @@
             border: 1px solid black; 
             padding: 10px; 
         } 
+
         table:hover {
             transform: scale(1.1);
             background-color: #e0e0e0; 
@@ -77,27 +102,34 @@
 
     <img src="EJ_CLASE/imagenes/VerFotAlu.png" alt="Foto de alumno" class="thumbnail">
 
-    <table>
-        <tr>
-            <th>Nombre:</th>
-            <td>Manuel León Rodas</td>        
-        </tr>
-        <tr>
-            <th>Módulo:</th>
-            <td>Lenguaje de marcas</td>        
-        </tr>
-        <tr>
-            <th>IES:</th>
-            <td>Martínez Montañés</td>        
-        </tr>
-        <tr>
-            <th>Profesor:</th>
-            <td>Gregorio Jiménez Martínez</td>        
-        </tr>
-        <tr>
-            <th>Curso:</th>
-            <td>1º DAW</td>        
-        </tr>
-    </table>
+    <div class="bloque">
+        <div class="index">
+            <a href="#tecnologia">NextGenTech</a>
+            <a href="EJ_CLASE/index2.html">Ejercicios de clase</a>
+        </div>
+
+        <table>
+            <tr>
+                <th>Nombre:</th>
+                <td>Manuel León Rodas</td>        
+            </tr>
+            <tr>
+                <th>Módulo:</th>
+                <td>Lenguaje de marcas</td>        
+            </tr>
+            <tr>
+                <th>IES:</th>
+                <td>Martínez Montañés</td>        
+            </tr>
+            <tr>
+                <th>Profesor:</th>
+                <td>Gregorio Jiménez Martínez</td>        
+            </tr>
+            <tr>
+                <th>Curso:</th>
+                <td>1º DAW</td>        
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
